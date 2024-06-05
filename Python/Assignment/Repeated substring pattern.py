@@ -5,8 +5,6 @@ Given a string s, check if it can be constructed by taking a substring of it and
  """
 class Solution:
     def repeatedSubstringPattern(self, s: str) -> bool:
-        if not s:
-            return False
         
         half = len(s) // 2
         
